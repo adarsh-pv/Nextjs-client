@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SSL Checker Frontend
 
-## Getting Started
+This project is a Next.js frontend application that provides a simple user interface to check the SSL certificate details of a domain using the Node.js backend API. The app allows users to enter a domain name and fetch SSL information such as the certificate issuer, validity, and other details.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Input form for checking the SSL certificate of any domain
+- Displays certificate information including the issuer, validity, and whether it's self-signed
+- Basic routing for navigating between pages
+- Reusable components for layout, forms, and displaying results
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Frontend:** Next.js, React.js
+- **Styling:** CSS
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Prerequisites
 
-## Learn More
+Ensure you have the following installed:
 
-To learn more about Next.js, take a look at the following resources:
+- [Node.js](https://nodejs.org/) v14 or later
+- npm (Node package manager)
+- [Next.js](https://nextjs.org/) v13 or later
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Clone the repository to your local machine:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   git clone https://github.com/adarsh-pv/SSL-Check-client.git
