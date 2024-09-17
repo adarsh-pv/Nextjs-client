@@ -16,9 +16,10 @@ export default function ResultCard({ data }) {
       
       <div className="issuer">
         <p><strong>Issuer Name :</strong> {data?.issuer?.commonName || "N/A"}</p>
+        <p><strong>Valid :</strong> {data?.valid === true ? 'Valid':'Not Valid'}</p>
         <p><strong>Country :</strong> {data?.issuer?.country || "N/A"}</p>
         <p><strong>Organization :</strong> {data?.issuer?.organization || "N/A"}</p>
-        <p><strong>Day Remindibg :</strong> {data?.daysRemaining}</p>
+        <p><strong>Day Remindibg :</strong> {data?.daysRemaining  }</p>
         {data?.issuer?.state && <p><strong>State:</strong> {data?.issuer?.state}</p>}
         {data?.issuer?.locality && <p><strong>Locality:</strong> {data?.issuer?.locality}</p>}
       </div>
